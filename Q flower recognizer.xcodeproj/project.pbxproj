@@ -14,6 +14,7 @@
 		0D6878E220B18AF100ED97F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6878E020B18AF100ED97F2 /* LaunchScreen.storyboard */; };
 		0D6878ED20B18AF100ED97F2 /* Q_flower_recognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6878EC20B18AF100ED97F2 /* Q_flower_recognizerTests.swift */; };
 		0D6878F820B18AF100ED97F2 /* Q_flower_recognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6878F720B18AF100ED97F2 /* Q_flower_recognizerUITests.swift */; };
+		0D68790620B1B4E300ED97F2 /* Oxford102.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0D68790520B1B4E300ED97F2 /* Oxford102.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D6878F320B18AF100ED97F2 /* Q flower recognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Q flower recognizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6878F720B18AF100ED97F2 /* Q_flower_recognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q_flower_recognizerUITests.swift; sourceTree = "<group>"; };
 		0D6878F920B18AF100ED97F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D68790520B1B4E300ED97F2 /* Oxford102.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Oxford102.mlmodel; path = models/Oxford102.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0D6878CB20B18AF000ED97F2 = {
 			isa = PBXGroup;
 			children = (
+				0D68790520B1B4E300ED97F2 /* Oxford102.mlmodel */,
 				0D6878D620B18AF000ED97F2 /* Q flower recognizer */,
 				0D6878EB20B18AF100ED97F2 /* Q flower recognizerTests */,
 				0D6878F620B18AF100ED97F2 /* Q flower recognizerUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D68790620B1B4E300ED97F2 /* Oxford102.mlmodel in Sources */,
 				0D6878DA20B18AF000ED97F2 /* ViewController.swift in Sources */,
 				0D6878D820B18AF000ED97F2 /* AppDelegate.swift in Sources */,
 			);
